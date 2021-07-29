@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack serve --mode=development --open --hot ",
     "build": "webpack --mode=production",
-    "eslint": "eslint --fix src/**.js"
+    "eslint": "eslint src/**.js",
+    "eslint:fix": "eslint --fix src/**.js"
   },
   "author": "",
   "license": "ISC",
